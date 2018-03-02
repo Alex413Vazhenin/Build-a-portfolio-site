@@ -38,11 +38,7 @@ p {
   margin-top: 10px;
 }
 
-.header-container {
-  display: flex;
-}
-
-.flex-container {
+.container {
  display: flex;
  flex-wrap: wrap;
  max-width: 1300px;
@@ -86,6 +82,7 @@ p {
 
 .img-responsive {
   max-width: 100%;
+  height: auto;
 }
 
 .project {
