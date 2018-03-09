@@ -24,15 +24,6 @@ p {
   padding: 5px;
 }
 
-.col-6 {
-    width: 50%;
-    flex: 1 1 auto;
-}
-
-.col-12 {
-    width: 100%;
-}
-
 .logo {
   width: 40px;
   margin-top: 10px;
@@ -87,15 +78,17 @@ p {
 
 .project {
   margin: 10px;
+  width: 50%;
+  flex: 1 1 auto;
 }
 
 /* Footer */
 footer {
   text-align: center;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
+   left: 0;
+   bottom: 0;
+   height: 30px;
+   width: 100%;
 }
 
 /* Responsive images */
