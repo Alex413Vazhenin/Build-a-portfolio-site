@@ -1,73 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfolio site - front page</title>
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300%7CLora" rel="stylesheet">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
 
-    <title>Portfolio site - front page</title>
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300%7CLora" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+	<section class="flex-container">
 
-<body>
-
-    <div class="container">
-
-        <!-- Header -->
-        <section class="row">
-            <div class="col-sm-6 logo">
-                <img class="img-fluid logo" src="img/udacity.svg" alt="Udacity logo">
+<!-- Header -->
+		<header class="row header-container">
+            <div class="col-6 logo">
+            	<img class="logo" src="img/udacity.svg" alt="Udacity logo">
             </div>
-            <div class="col-sm-6 title">
-                <h1>Alexander V. Vazhenin</h1>
+
+            <div class="col-6 title">
+            	<h1>Alexander V. Vazhenin</h1>
                 <h4>Front-end developer</h4>
             </div>
-        </section>
-        <!-- end header -->
-        <div class="row main-block">
-        	<div class="col-12">
-            	<img class="main-image img-fluid" src="img/lake.jpg" alt="Main block">
+		</header>
+<!-- end header -->
+            <div class="row main-block">
+            	<img class="col-12 main-image" src="img/lake.jpg" alt="Main block">
             </div>
+
+            <h2 class="row portfolio-title">Featured work</h2>
+			<section class="row portfolio">
+				<div class="col-6 project">
+                    <img class="img-responsive" src="img/lake.jpg" alt="Lake image">
+                    <h3>Project one</h3>
+                    <p>Lake</p>
+                </div>
+                <div class="col-6 project">
+                    <img class="img-responsive" src="img/plaza.jpg" alt="Woods image">
+                    <h3 class="text-uppercase">Project two</h3>
+                    <p>Woods</p>
+                </div>
+                <div class="col-6 project">
+                    <img class="img-responsive" src="img/town.jpg" alt="City image">
+                    <h3 class="text-uppercase">Projecy three</h3>
+                    <p>City</p>
+                </div>
+
+            </section>
+
+            <footer>
+                <div class="row">
+                    <div class="col-12">
+                        2018 Udacity Frontend Nanodegree Project 2
+                    </div>
+                </div>
+            </footer>
+
         </div>
 
-        <div class="row">
-        	<div class="col-12">
-            	<h2 class="portfolio-title">Featured work</h2>
-            </div>
-        </div>
-        <section class="row portfolio">
-            <div class="col-6 project">
-                <img class="img-fluid" src="img/lake.jpg" alt="Project 1 responsive Lake image">
-                <h3 class="text-uppercase">Project one</h3>
-                <p>Lake</p>
-            </div>
-            <div class="col-6 project">
-                <img class="img-fluid" src="img/plaza.jpg" alt="Project 2 responsive Woods image">
-                <h3 class="text-uppercase">Project two</h3>
-                <p>Woods</p>
-            </div>
-            <div class="col-6 project">
-                <img class="img-fluid" src="img/town.jpg" alt="Project 3 responsive City image">
-                <h3 class="text-uppercase">Project three</h3>
-                <p>City</p>
-            </div>
+    </body>
 
-        </section>
 
-  		<footer class="row">
-        	<div class="col-12">
-            	2018 Udacity Frontend Nanodegree Project 2
-        	</div>
-    	</footer>
-
-	-</div>
-
-</body>
-
-</html>
