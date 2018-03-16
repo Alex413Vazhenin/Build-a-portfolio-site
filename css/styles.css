@@ -1,105 +1,54 @@
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     box-sizing: border-box;
 }
 /* Global */
-body {
-  background-color: #fff;
-  font-family: "Lato", sans-serif;
-  color: #676858;
+ body {
+     background-color: #fff;
+     font-family: "Lato", sans-serif;
+     color: #676858;
 }
-
-h1,
-h2,
-h3,
-h4 {
-  text-transform: uppercase;
-  color: #4f4f4f;
+ h1, h2, h3, h4 {
+     text-transform: uppercase;
+     color: #4f4f4f;
 }
-
-p {
-  text-align: center;
-  padding: 5px;
+ p {
+     text-align: center;
+     padding: 5px;
 }
-
-.col-6 {
-    width: 50%;
-    flex: 1 1 auto;
+ .logo {
+     margin-top: 10px;
 }
-
-.col-12 {
-    width: 100%;
+ .flex-container {
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 1300px;
+     width: 100%;
+     margin: 0 auto;
 }
-
-.logo {
-  width: 40px;
-  margin-top: 10px;
+ .row {
+     width: 100%;
 }
-
-.header-container {
-  display: flex;
+ .title {
+     text-align: right;
+     margin-top: 10px;
 }
-
-.flex-container {
- display: flex;
- flex-wrap: wrap;
- max-width: 1300px;
- width: 100%;
- margin: 0 auto;
- overflow: hidden;
+ .portfolio {
+     text-align: center;
 }
-
-.row {
-  width: 100%;
+ .portfolio-title {
+     font-size: 2.5em;
+     text-align: center;
+     padding-top: 30px;
+     padding-bottom: 5px;
 }
-
-.title {
-  width: 50%;
-  text-align: right;
-  padding-right: 30px;
-  padding-bottom: 15px;
-}
-
-.main-image {
-  height: auto;
-  margin: 0;
-  display: block;
-}
-
-.portfolio {
-  display: inline-flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  text-align: center;
-  padding-bottom: 40px;
-}
-
-.portfolio-title {
-  display: inline;
-  font-size: 2.5em;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 5px;
-}
-
-.img-responsive {
-  max-width: 100%;
-}
-
-.project {
-  margin: 10px;
-}
-
 /* Footer */
-footer {
-  text-align: center;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
+ footer {
+     text-align: center;
+     left:0px;
+     bottom:0px;
+     height:30px;
+     width:100%;
 }
-
-/* Responsive images */
-
